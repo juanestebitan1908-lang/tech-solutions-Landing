@@ -12,10 +12,10 @@ const Navbar = () => {
           <a href="#servicios" className="text-muted-foreground hover:text-foreground transition-colors">Servicios</a>
           <a href="#contacto" className="text-muted-foreground hover:text-foreground transition-colors">Contacto</a>
           <a
-            href="https://wa.me/573213711610"
+            href="https://wa.me/3213711610"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-4 py-2 rounded-lg bg-primary text-primary-foreground font-medium hover:brightness-110 transition-all text-sm"
+            className="px-4 py-2 rounded-lg bg-whatsapp text-whatsapp-foreground font-medium hover:brightness-110 transition-all text-sm"
           >
             WhatsApp
           </a>
