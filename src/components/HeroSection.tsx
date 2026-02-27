@@ -27,26 +27,29 @@ const HeroSection = () => {
             Soluciones rápidas y confiables para tu computador y tu empresa.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="https://wa.me/3213711610?text=Hola,%20necesito%20soporte%20técnico"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-whatsapp text-whatsapp-foreground font-semibold text-lg hover:brightness-110 transition-all glow-sm"
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-whatsapp text-whatsapp-foreground font-semibold text-lg hover:scale-110 hover:shadow-[0_0_25px_hsl(var(--whatsapp)/0.5)] transition-all duration-300 glow-sm animate-fade-in-up"
+              style={{ animationDelay: "0.3s" }}
             >
               <MessageCircle className="w-5 h-5" />
               Contactar por WhatsApp
             </a>
             <a
               href="#contacto"
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-primary text-primary-foreground font-semibold text-lg hover:brightness-110 transition-all glow-sm"
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-primary text-primary-foreground font-semibold text-lg hover:scale-105 hover:brightness-110 transition-all duration-300 glow-sm animate-fade-in-up"
+              style={{ animationDelay: "0.45s" }}
             >
               <Headphones className="w-5 h-5" />
               Solicitar soporte
             </a>
             <a
               href="mailto:juanestebitan1908@gmail.com"
-              className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg border border-border bg-secondary text-secondary-foreground font-semibold text-lg hover:bg-muted transition-all"
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg border border-border bg-secondary text-secondary-foreground font-semibold text-lg hover:scale-105 hover:bg-muted transition-all duration-300 animate-fade-in-up"
+              style={{ animationDelay: "0.6s" }}
             >
               <Mail className="w-5 h-5" />
               Enviar correo

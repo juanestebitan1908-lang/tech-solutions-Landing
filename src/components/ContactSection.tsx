@@ -48,7 +48,7 @@ const ContactSection = () => {
               href="https://wa.me/3213711610?text=Hola,%20necesito%20soporte%20técnico"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-3 w-full px-6 py-4 rounded-lg bg-whatsapp text-whatsapp-foreground font-semibold hover:brightness-110 transition-all"
+              className="flex items-center justify-center gap-3 w-full px-6 py-4 rounded-lg bg-whatsapp text-whatsapp-foreground font-semibold hover:scale-105 hover:shadow-[0_0_20px_hsl(var(--whatsapp)/0.4)] transition-all duration-300"
             >
               <MessageCircle className="w-5 h-5" />
               WhatsApp

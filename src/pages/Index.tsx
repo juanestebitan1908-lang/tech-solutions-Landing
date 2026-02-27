@@ -7,6 +7,7 @@ import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
 import SocialRibbons from "@/components/SocialRibbons";
+import SatisfactionSection from "@/components/SatisfactionSection";
 
 const Index = () => {
   return (
@@ -17,6 +18,7 @@ const Index = () => {
       <ServicesSection />
       <WhyUsSection />
       <ContactSection />
+      <SatisfactionSection />
       <Footer />
       <WhatsAppFloat />
       <SocialRibbons />
