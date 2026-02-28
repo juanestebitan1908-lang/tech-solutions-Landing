@@ -1,70 +1,39 @@
-# Welcome to your Lovable project
+# Soporte Técnico Express - Landing Page
 
-## Project info
+**Estudiante:** Juan Esteban Torres Gomez  
+**Fecha:** 28 de febrero de 2025  
+**Curso:** Plataformas tecnológicas y aplicaciones
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 2. Descripción del proyecto
+Este proyecto es una landing page profesional diseñada para una empresa de **soporte técnico en equipos de cómputo**. El objetivo principal es ofrecer servicios de reparación, mantenimiento preventivo y optimización de hardware y software de manera clara y directa.
 
-There are several ways of editing your application.
+- **¿Qué hace el proyecto?** Presenta los servicios de soporte, permite a los usuarios conocer las soluciones técnicas y facilita el contacto directo.
+- **¿Qué problema soluciona?** Centraliza la información de contacto y servicios para usuarios que necesitan asistencia técnica urgente y profesional.
+- **¿Para quién está pensado?** Personas naturales y pequeñas empresas que requieran asistencia técnica para sus computadores.
 
-**Use Lovable**
+## 3. Tecnologías utilizadas
+Para el desarrollo de este proyecto se utilizó un stack tecnológico de alto rendimiento:
+*   **React 19:** Biblioteca principal para la interfaz de usuario.
+*   **TypeScript:** Para un desarrollo seguro con tipado estático.
+*   **Tailwind CSS:** Framework de utilidades para un diseño moderno y responsivo.
+*   **Vite:** Herramienta de compilación rápida para el entorno de desarrollo.
+*   **Lovable AI:** Herramienta de IA para la generación y prototipado rápido de la landing.
+*   **Git y GitHub:** Control de versiones y despliegue del repositorio.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
+## 4. Estructura del proyecto
+Basado en la arquitectura estándar de Vite + React:
+```text
+/tech-solutions-landing-main
+ ├── public/          # Recursos estáticos (iconos, logos públicos)
+ ├── src/             # Código fuente de la aplicación
+ │    ├── components/ # Componentes reutilizables de la interfaz
+ │    └── ...         # Configuración de rutas y estados
+ ├── index.html       # Punto de entrada HTML principal
+ ├── tailwind.config.ts # Configuración de estilos Tailwind
+ ├── vite.config.ts   # Configuración del empaquetador Vite
+ └── package.json     # Listado de dependencias y scripts
 
 Yes, you can!
 
