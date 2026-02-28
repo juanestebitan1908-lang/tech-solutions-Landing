@@ -29,7 +29,7 @@ const HeroSection = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://wa.me/573213711610?text=Hola,%20necesito%20soporte%20técnico"
+              href="https://wa.me/3213711610?text=Hola,%20necesito%20soporte%20técnico"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-whatsapp text-whatsapp-foreground font-semibold text-lg hover:scale-110 hover:shadow-[0_0_25px_hsl(var(--whatsapp)/0.5)] transition-all duration-300 glow-sm animate-fade-in-up"
