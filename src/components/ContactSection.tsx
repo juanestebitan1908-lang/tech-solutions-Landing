@@ -1,4 +1,5 @@
-import { MapPin, Mail, Phone, MessageCircle, PhoneCall } from "lucide-react";
+import { MapPin, Mail, Phone, PhoneCall } from "lucide-react";
+import WhatsAppIcon from "./icons/WhatsAppIcon";
 
 const ContactSection = () => {
   return (
@@ -50,7 +51,7 @@ const ContactSection = () => {
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-3 w-full px-6 py-4 rounded-lg bg-whatsapp text-whatsapp-foreground font-semibold hover:scale-105 hover:shadow-[0_0_20px_hsl(var(--whatsapp)/0.4)] transition-all duration-300"
             >
-              <MessageCircle className="w-5 h-5" />
+              <WhatsAppIcon className="w-5 h-5" />
               WhatsApp
             </a>
             <a
