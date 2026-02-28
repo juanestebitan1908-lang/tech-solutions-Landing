@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import WhatsAppFloat from "@/components/WhatsAppFloat";
 import SocialRibbons from "@/components/SocialRibbons";
 import SatisfactionSection from "@/components/SatisfactionSection";
+import ReviewSection from "@/components/ReviewSection";
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
       <ServicesSection />
       <WhyUsSection />
       <ContactSection />
+      <ReviewSection />
       <SatisfactionSection />
       <Footer />
       <WhatsAppFloat />
