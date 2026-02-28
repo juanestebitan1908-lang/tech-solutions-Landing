@@ -1,4 +1,4 @@
-import { Phone } from "lucide-react";
+import WhatsAppIcon from "./icons/WhatsAppIcon";
 
 const WhatsAppFloat = () => {
   return (
@@ -18,7 +18,7 @@ const WhatsAppFloat = () => {
         e.currentTarget.style.boxShadow = '';
       }}
     >
-      <Phone className="w-9 h-9" fill="currentColor" />
+      <WhatsAppIcon className="w-9 h-9" />
 
       <style>{`
         @keyframes neon-pulse {

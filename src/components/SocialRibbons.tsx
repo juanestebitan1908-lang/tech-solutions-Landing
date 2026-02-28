@@ -30,9 +30,9 @@ const SocialRibbons = () => {
           href={r.href}
           target="_blank"
           rel="noopener noreferrer"
-          className={`group flex items-center gap-3 ${r.bg} text-primary-foreground pl-3 pr-4 py-2.5 rounded-r-lg -translate-x-[calc(100%-40px)] hover:translate-x-0 transition-transform duration-300 ease-out shadow-md hover:shadow-lg`}
+          className={`group flex items-center gap-3 ${r.bg} text-primary-foreground pl-3 pr-4 py-2.5 rounded-r-lg -translate-x-[calc(100%-48px)] hover:translate-x-0 transition-transform duration-300 ease-out shadow-md hover:shadow-lg`}
         >
-          <r.icon className="w-5 h-5 shrink-0" />
+          <r.icon className="w-5 h-5 shrink-0 opacity-100" />
           <span className="text-sm font-medium whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-300">
             {r.label}
           </span>

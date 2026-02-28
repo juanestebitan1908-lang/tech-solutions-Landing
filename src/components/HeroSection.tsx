@@ -1,4 +1,5 @@
-import { MessageCircle, Headphones, Mail } from "lucide-react";
+import { Headphones, Mail } from "lucide-react";
+import WhatsAppIcon from "./icons/WhatsAppIcon";
 import heroBg from "@/assets/hero-bg.jpg";
 
 const HeroSection = () => {
@@ -35,7 +36,7 @@ const HeroSection = () => {
               className="inline-flex items-center justify-center gap-2 px-8 py-4 rounded-lg bg-whatsapp text-whatsapp-foreground font-semibold text-lg hover:scale-110 hover:shadow-[0_0_25px_hsl(var(--whatsapp)/0.5)] transition-all duration-300 glow-sm animate-fade-in-up"
               style={{ animationDelay: "0.3s" }}
             >
-              <MessageCircle className="w-5 h-5" />
+              <WhatsAppIcon className="w-5 h-5" />
               Contactar por WhatsApp
             </a>
             <a

@@ -1,4 +1,5 @@
 import { Monitor } from "lucide-react";
+import WhatsAppIcon from "./icons/WhatsAppIcon";
 
 const Navbar = () => {
   return (
@@ -15,8 +16,9 @@ const Navbar = () => {
             href="https://wa.me/3213711610"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-4 py-2 rounded-lg bg-whatsapp text-whatsapp-foreground font-medium hover:brightness-110 transition-all text-sm"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-whatsapp text-whatsapp-foreground font-medium hover:brightness-110 transition-all text-sm"
           >
+            <WhatsAppIcon className="w-4 h-4" />
             WhatsApp
           </a>
         </div>
