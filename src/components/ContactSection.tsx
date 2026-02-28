@@ -45,7 +45,7 @@ const ContactSection = () => {
           <div className="glass rounded-xl p-8 space-y-4">
             <h3 className="text-xl font-semibold font-display text-foreground mb-4">Contacto rápido</h3>
             <a
-              href="https://wa.me/573213711610?text=Hola,%20necesito%20soporte%20técnico"
+              href="https://wa.me/3213711610?text=Hola,%20necesito%20soporte%20técnico"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-3 w-full px-6 py-4 rounded-lg bg-whatsapp text-whatsapp-foreground font-semibold hover:scale-105 hover:shadow-[0_0_20px_hsl(var(--whatsapp)/0.4)] transition-all duration-300"
